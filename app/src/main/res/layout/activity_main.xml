@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.denhampraha.birdday.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="507dp"
+        android:background="@drawable/birthdaycard"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="2dp">
+
+
+        <TextView
+            android:id="@+id/arip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="52dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="180dp"
+            android:text="Ariffadhlurrohman Ruhiyat"
+            android:textColor="#01579B"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/arip"
+            android:layout_alignStart="@+id/arip"
+            android:layout_below="@+id/arip"
+            android:text="15 Maret 2017"
+            android:textColor="#01579B"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/fotoarip"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_alignLeft="@+id/tanggal"
+            android:layout_alignStart="@+id/tanggal"
+            android:layout_below="@+id/tanggal"
+            android:src="@drawable/arippp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/fotoarip"
+            android:layout_alignStart="@+id/fotoarip"
+            android:layout_below="@+id/fotoarip"
+            android:layout_marginTop="5dp"
+            android:text="Life is a journey. Enjoy every mile."
+            android:textColor="#01579B"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:id="@+id/friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignEnd="@+id/fotoarip"
+            android:layout_alignRight="@+id/fotoarip"
+            android:layout_below="@+id/textView"
+            android:text="Your Friend"
+            android:textColor="#01579B" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/friend"
+            android:layout_alignRight="@+id/friend"
+            android:layout_alignTop="@+id/friend"
+            android:layout_marginTop="19dp"
+            android:text="Prad"
+            android:textColor="#01579B"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
